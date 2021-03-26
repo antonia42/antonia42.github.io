@@ -1,0 +1,313 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+
+}
+
+h4 {
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    
+}
+
+h4 > a {
+    font-weight: 600;    
+}
+
+p {
+    font-weight: 370;
+    letter-spacing: 0.85px;
+
+}
+
+
+.licno > h2 {
+    text-align: center;
+    width: 800px;
+}
+
+.licno > h4 {
+    text-align: center;
+    margin-bottom: 62px;
+
+}
+
+img.test {
+    display: block;
+    width: 42%;
+    height: auto;
+    /*height="320px" width="320px"*/
+}
+
+
+.men {
+    font-size: 15px;
+}
+
+.navbar-header > a {
+    font-text: 10px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    text-color: #0D020B;
+}
+
+.lead, .lead > ul, ul.lead > li {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.aboutme {
+    text-align: justify;
+}
+
+
+
+.start {
+        min-height: 10px;    
+}
+
+.intro-header {
+    text-align: center;
+    min-height: 400px;
+    color: #0D020B;
+    background: #ffa3a3;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-left: 17%;
+    padding-right: 17%;
+    min-height: 430px;
+    text-align: left;
+
+}
+
+.intro-message > h4 {
+    font-size: 1.3em;
+    letter-spacing: 1.2px;
+}
+
+.intro-message > img {
+    margin-top: 8px;
+    margin-right: 20px;
+    float:left;
+}
+
+.intro-message > ul {
+    margin-top: -20px;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #feffff;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 70px 80px 50px 80px;
+}
+
+.news {
+    width: 100%;
+    background: #ff4242;
+    color: #0D020B;
+    margin-top: -34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: -65px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    font-size: 13px;
+    min-height: 30px;
+}
+
+.keim {
+    display: inline;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.news p {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.keim, .news p {
+    display: inline;
+}
+
+
+.publi {
+    width: 100%;
+    min-height: 100%;
+    background-color: #FCFAFC;
+}
+
+.lala {
+    margin: 0 145px 0 145px;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #FCFAFC;
+}
+
+.banner {
+    padding: 80px 0 300px 0;
+    color: #0D020B;
+    background-color: #feffff;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0 auto 17px auto;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.socialmed {
+    margin-top: 23px;
+}
+
+.socialmed1 {
+    margin-top: 19px;
+}
+
+.socialheader > a {
+    color: #ff4242;
+}
+
+.socialheader > a:hover, a:focus{
+    color: #feffff;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #feffff;
+}
+
+p.copyright {
+    margin: -20px 0 0 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+.deli > h2 {
+    text-align: center;
+}
+
+.deli > h4 {
+    text-align: center;
+    margin-bottom: 62px;
+
+}
+
